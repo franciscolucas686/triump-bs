@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -27,19 +28,16 @@
                         <a class="nav-link" href="#especificacoes">ESPECIFICAÇÕES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MODELOS</a>
+                        <a class="nav-link" href="#modelos">MODELOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PROPRIETARIOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SABIA MAIS</a>
+                        <a class="nav-link" href="#contato">CONTATO</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
         <section id="motocicleta">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -84,7 +82,7 @@
                             <img src="images/img-sobre.avif" class="d-block w-100 rounded" alt="foto da moto tiger 900">
                         </div>
                         <div class="col-md-7">
-                            <h2 class="section-title">NOVA TIGER 900 2024</h2>
+                            <h2 class="section-title mt-3 mt-md-0">NOVA TIGER 900 2024</h2>
                             <p>
                                 Experimente um desempenho inigualável, conforto e aventuras emocionantes na estrada e fora dela com a nova Triumph Tiger 900. Incremente sua pilotagem com uma ampla variedade de acessórios genuínos, criados meticulosamente para complementar cada detalhe da sua viagem. Seja encarando as ruas da cidade ou desbravando terrenos acidentados: cada acessório foi projetado para melhorar sua aventura.
                             </p>
@@ -147,23 +145,87 @@
                             <div class="tab-pane active" id="gt">
                                 <div class="row">
                                     <h5 class="fw-bold text-center section-title">TIGER 900 GT</h5>
-                                    <img src="images/tiger-900-gt.avif">
+                                    <img class="mb-5 mt-5" src="images/tiger-900-gt.png">
+                                    <p class="text-center fw-bold h5">Preços à partir de R$69.590,00</p>
                                 </div>
                             </div>
                             <div class="tab-pane" id="gt-pro">
                                 <div class="row">
                                     <h5 class="fw-bold text-center section-title">TIGER 900 GT PRO</h5>
-                                    <img src="images/tiger-900-gt-pro.avif">
+                                    <img class="mb-5 mt-5" src="images/tiger-900-gt-pro.png">
+                                    <p class="text-center fw-bold h5">Preços à partir de R$77.490,00</p>
                                 </div>
                             </div>
                             <div class="tab-pane" id="rally-pro">
                                 <div class="row">
                                     <h5 class="fw-bold text-center section-title">TIGER 900 RALLY PRO</h5>
-                                    <img src="images/tiger-900-rally-pro.avif">
+                                    <img class="mb-5 mt-5" src="images/tiger-900-rally-pro.png">
+                                    <p class="text-center fw-bold h5 ">Preços à partir de R$79.990,00</p>
                                 </div>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opiconal)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold mb-5">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title">
+                                <i class="bi bi-cursor-fill"></i> Endereço</h3>
+                            <p>
+                                Av. Dr. Afonso Vergueiro, 3030 - Vila Augusta, Sorocaba - SP, 18040-000
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

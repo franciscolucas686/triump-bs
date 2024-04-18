@@ -45,3 +45,18 @@
 .nav-modelos .nav-link:hover{
     font-weight: bold;
 }
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #CD192D;
+}
+
+#contato button {
+    background-color:#CD192D;
+    color: #fff;
+}
