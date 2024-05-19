@@ -1,2 +1,2 @@
 Link para o site
-https://triump-bs.vercel.app/
+https://triumph-bs.vercel.app/
